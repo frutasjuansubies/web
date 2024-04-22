@@ -1,6 +1,6 @@
 function toggleImageVisibility() {
   var vendedor = document.getElementById('vendedor');
-  var contenedor = document.querySelector('.contenedor-sobre-nosotros');
+  var contenedor = document.querySelector('.contenedor-sobre-nosotros1');
   
   if (window.innerWidth <= 700) { // Si la pantalla es igual o menor a 600px
     if (vendedor) {
