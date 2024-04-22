@@ -122,7 +122,10 @@ nav > a:hover{
     display: flex;
     justify-content: space-evenly;
 }
-
+.contenedor-sobre-nosotros1{
+    display: flex;
+    justify-content: space-evenly;
+}
 .contenedor-sobre-nosotros2{
 	margin-top: 20px;
     display: flex;
@@ -924,7 +927,11 @@ footer{
 /* Seccion Responsive Nosotros */
 
 @media screen and (max-width: 768px) {
-	..contenedor-nosotros .contenedor-sobre-nosotros{
+	.contenedor-nosotros .contenedor-sobre-nosotros{
+		flex-direction: column; /* Cambia la dirección de los elementos a columna en pantallas pequeñas */
+        align-items: center;
+	}
+	.contenedor-nosotros .contenedor-sobre-nosotros1{
 		flex-direction: column; /* Cambia la dirección de los elementos a columna en pantallas pequeñas */
         align-items: center;
 	}
@@ -939,6 +946,10 @@ footer{
 		margin-top: 20px;
 	}
 	.contenedor-nosotros .contenedor-sobre-nosotros{
+		flex-direction: column; /* Cambia la dirección de los elementos a columna en pantallas pequeñas */
+        align-items: center;
+	}
+	.contenedor-nosotros .contenedor-sobre-nosotros1{
 		flex-direction: column; /* Cambia la dirección de los elementos a columna en pantallas pequeñas */
         align-items: center;
 	}
