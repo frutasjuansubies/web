@@ -726,29 +726,6 @@ footer{
 
 /* --------------------------------- */
 
-@media screen and (max-width: 768px) {
-    .carrito {
-        width: 100%; /* Ancho completo en pantallas pequeñas */
-    }
-
-    .carrito .carrito-item {
-        padding: 10px; /* Reducir el espacio interno de los elementos del carrito en pantallas pequeñas */
-    }
-
-    .carrito .carrito-item .btn-eliminar {
-        top: 5px; /* Espacio adicional arriba del botón eliminar en pantallas pequeñas */
-        right: 5px; /* Alinear el botón eliminar a la derecha en pantallas pequeñas */
-        font-size: 18px; /* Tamaño de fuente del botón eliminar en pantallas pequeñas */
-        width: 30px; /* Ancho del botón eliminar en pantallas pequeñas */
-        height: 30px; /* Altura del botón eliminar en pantallas pequeñas */
-        line-height: 30px; /* Alinear el contenido verticalmente en pantallas pequeñas */
-    }
-
-    .carrito-total .btn-pagar {
-        font-size: 14px; /* Tamaño de fuente del botón de pago en pantallas pequeñas */
-        padding: 10px 0; /* Añadir espacio interno al botón de pago en pantallas pequeñas */
-    }
-}
 
 /* @media screen and (max-width:900px){ */
     /* header{ */
