@@ -9,7 +9,7 @@ function toggleImageVisibility() {
   } else {
     if (!vendedor) { // Si la imagen no existe en el DOM
       var nuevaImagen = document.createElement('img');
-      nuevaImagen.src = 'img/vendedor.jpg';
+      nuevaImagen.src = 'img/juanito.png';
       nuevaImagen.alt = '';
       nuevaImagen.className = 'imagen-sobre-nosotros';
       nuevaImagen.id = 'vendedor';
