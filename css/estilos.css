@@ -708,11 +708,6 @@ footer{
         margin-top: 60px;
     }
 
-    .contenedor-contacto,
-    .contenido-contacto {
-        /* width: 100%; */
-    }
-
     .contenido-contacto iframe {
         height: 350px;
 		width: 350px;
@@ -747,10 +742,7 @@ footer{
         margin-top: 60px;
     }
 
-    .contenedor-contacto,
-    .contenido-contacto {
-        width: 100%;
-    }
+
 
     .contenido-contacto iframe {
         height: 200px;
@@ -806,9 +798,6 @@ footer{
         margin-top: 30px;
     }
 
-    .contenido-contacto iframe {
-        height: 300px;
-    }
 
     .seccion-contacto h2 {
         font-size: 20px;
