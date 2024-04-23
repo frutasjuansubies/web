@@ -122,6 +122,9 @@ nav > a:hover{
     display: flex;
     justify-content: space-evenly;
 }
+.contenedor-sobre-nosotros1 img{
+	margin-left: 20px;
+}
 .contenedor-sobre-nosotros1{
     display: flex;
     justify-content: space-evenly;
@@ -150,9 +153,18 @@ nav > a:hover{
 
 .contenido-textos h3{
 	background: 5px;
-	margin-left: 15px;
+	margin-left: 20px;
 	margin-bottom: 10px;
+	margin-top: 10px;
 }
+.contenido-textos p{
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-bottom: 60px;
+	/* padding: 0px 0px 30px 15px; */
+	text-align: justify;
+}
+
 .contenido-textos h3 span{
 	background: var(--rojo);
 	color: white;
@@ -192,11 +204,6 @@ nav > a:hover{
 	padding: 2px;
 	box-shadow: 0 0 6px 0 black;
 	margin: 15px 5px 15px 0;
-}
-
-.contenido-textos p{
-	padding: 0px 0px 30px 15px;
-	text-align: justify;
 }
 
 
@@ -245,7 +252,7 @@ header .textos-header{
 footer{
 	width:100%;
 	background: var(--morado);
-	padding: 60px 0 30px 0;
+	padding: 30px 0 30px 0;
 	margin: auto;
 	overflow: hidden;
 }
@@ -285,10 +292,9 @@ footer{
 
 /* SobreNosotros */
 .imagen-sobre-nosotros{
-    width: 48%;
-	height: 25%;
+    width: 30%;
+	height: 30%;
 	border: 3px solid transparent;
-	/* border-image: linear-gradient(to bottom, pink 0%, orange 100%) 1; */
 	border-radius:15px;
 }
 .tituloSobreNosotros{
