@@ -907,18 +907,23 @@ footer{
     }
 }
 /* Media queries para hacer el footer responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .contenedor-footer {
         flex-direction: column; /* Cambia la dirección de los elementos a columna en pantallas pequeñas */
         align-items: center; /* Centra los elementos en pantallas pequeñas */
     }
 
     .content-foo {
+		margin-left: 0;
         margin-bottom: 10px; /* Reduce el espacio entre columnas en pantallas pequeñas */
     }
 }
 
 @media screen and (max-width: 500px) {
+	.content-foo {
+		margin-left: 0;
+        margin-bottom: 10px; /* Reduce el espacio entre columnas en pantallas pequeñas */
+    }
     .content-foo h4 {
         font-size: 16px; /* Ajusta el tamaño de fuente para dispositivos móviles más pequeños */
     }
