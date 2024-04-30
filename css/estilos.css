@@ -581,7 +581,7 @@ footer{
 .seccion-contacto form textarea{
 	width: 100%;
 }
-.seccion-contacto .btn-enviar{	
+.seccion-contacto .btn-enviar{	c
 	width:100%;
     padding: 15px;
     font-size: 14px;
@@ -605,6 +605,33 @@ footer{
     margin-left: 2px;
 	font-size: 12px;
 }
+
+
+/* EVENTOS */
+
+.contenedorEvento{
+	margin: 30px;
+	display: flex;
+    justify-content: space-evenly;
+	padding-bottom: 10px;
+}
+
+.imagenEvento{
+	height: 30%;
+	width: 30%;
+	align-content: center;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* DATOSCONTACTO */
 .DatosContacto{
@@ -708,6 +735,7 @@ footer{
         margin-top: 60px;
     }
 
+
     .contenido-contacto iframe {
         height: 350px;
 		width: 350px;
@@ -742,7 +770,10 @@ footer{
         margin-top: 60px;
     }
 
-
+    .contenedor-contacto,
+    .contenido-contacto {
+        width: 100%;
+    }
 
     .contenido-contacto iframe {
         height: 200px;
@@ -798,6 +829,9 @@ footer{
         margin-top: 30px;
     }
 
+    .contenido-contacto iframe {
+        height: 300px;
+    }
 
     .seccion-contacto h2 {
         font-size: 20px;
